@@ -33,21 +33,11 @@ include_once('./layouts/header.php');
                 <input class="input" type="text" name="pseudo" required>
             </div>
 
-            <?php if ($_SESSION['regex'] == false): ?>
             <div class="form">
-                <p>Mauvaise adresse mail, recommence</p>
                 <label for="email">Email</label>
                 <input class="input" type="text" name="email" required>
             </div>
-            <?php endif; ?>
 
-            <?php if (!$_SESSION['regex']): ?>
-            <div class="form">
-                <p>Mauvaise adresse mail, recommence</p>
-                <label for="email">Email</label>
-                <input class="input" type="text" name="email" required>
-            </div>
-            <?php endif; ?>
 
             <input type="submit">
         </form>
