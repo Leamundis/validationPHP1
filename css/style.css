@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+h1, h2, nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul, .navList {
+    flex-direction: row;
+    display: flex;
+}
+
+ul {
+    justify-content: space-between;
+    width: 70%;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navList {
+    width: 50%;
+    justify-content: space-between;
+
+}
+
+nav {
+    margin-top: 15px;
+}
+
+main {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    width: 50%;
+}
+
+.logged {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.deco {
+    font-size: 11px;
+}
+
+tbody {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+tbody, tr {
+    width: 100%;
+}
+
+
+h2 {
+    margin-bottom: 40px;
+}
+
+tr {
+    justify-content: space-between;
+    display: flex;
+}
+
+
+tr:first-child th:first-child, th:nth-child(2) {
+    text-align: left;   
+}
+
+th:nth-child(3), tr>td:nth-child(3) {
+    text-align: center;  
+}
+
+.totalCrystal {
+    margin-top: 20px;
+}
